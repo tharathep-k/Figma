@@ -187,29 +187,35 @@ footer {
 .information {
     border: 1px solid green;
     width: 60%;
-    margin-top: 150px;
+    margin-top: 110px;
 }
 
 .download {
-    background-color: red;
+    background-color: #FF6464;
+    border-radius: 2px;
     color: white;
     border: none;
     width: 150px;
     height: 30px;
 }
 
+.picpro {
+    border: 1px solid brown;
+    width: 40%;
+    margin-top: 110px;
+    padding-left: 100px;    
+}
+
 .picpro img {
     border: 1px solid black;
-    margin-top: 180px;
-    margin-left: 150px;
     border-radius: 50%;
     width: 250px;
     height: 250px;
+    
 }
 
 .midcontentcon {
     border: 1px solid black;
-    /* height: 396px; */
     background-color: #EDF7FA;
     display: flex;
     flex-direction: column;
@@ -220,13 +226,12 @@ footer {
     border: 1px solid red;
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    width: 80%;
 }
 
 .boxmidcontent {
     border: 1px solid lightgreen;
-    width: 70%;
-    /* height: 500px; */
+    width: 80%;
     display: flex;
     justify-content: space-between;
     
@@ -244,18 +249,114 @@ footer {
     height: 200px;
 } 
 
+.data9 {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+    display: flex;
+    gap: 50px;
+}
+
+.content9 {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.year {
+    border: 1px solid navy;
+    border-radius: 5px;
+    background-color: navy;
+    color: white;
+    width: 50px;
+    height: 15px;
+    text-align: center;
+}
+
+.midcontentprofile {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.data10 {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+    display: flex;
+    gap: 50px;
+}
+
+.content10 {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.data11 {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+    display: flex;
+    gap: 50px;
+}
+
+.content11 {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottomcontent {
+    display: flex;
+    justify-content: center;
+}
+
+.bottomcontentfram {
+    border: 1px solid teal;
+    width: 80%;
+}
+
 
 @media (max-width: 375px) {
+    .hamnav {
+        width: 100%;
+    }
+
+    .profile {
+        border: 1px solid blue;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .information {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0 50px 0
+    }
+    
+    .picpro {
+        width: 100%;
+        padding-left: 50px;
+        margin: 0;
+    }
+
+    .picpro img {
+        width: 180px;
+        height: 180px;
+        margin-top: 16px;
+    }
+
     .data5 {
         flex-wrap: wrap;
     }
 
     .content5 {
         align-items: center;
+        width: 100%;
     }
 
-    .midcontent {
-        justify-content: center;
+    .headconwork5 {
+        padding-right: 90px;
     }
 
     .midcontent .year p {
@@ -269,6 +370,11 @@ footer {
 
     .content6 {
         align-items: center;
+        width: 100%;
+    }
+
+    .headconwork6 {
+        padding-right: 66px;
     }
 
     .data7 {
@@ -277,6 +383,11 @@ footer {
 
     .content7 {
         align-items: center;
+        width: 100%;
+    }
+
+    .headconwork7 {
+        padding-right: 114px;
     }
 
     .data8 {
@@ -285,8 +396,75 @@ footer {
 
     .content8 {
         align-items: center;
+        width: 100%;
     }
 
+    .headconwork8 {
+        padding-right: 154px;
+    }
+
+    .data9 {
+        flex-wrap: wrap;
+    }
+
+    .content9 {
+        align-items: center;
+        width: 100%;
+    }
+
+    .headconbottom9 {
+        padding-right: 138px;
+    }
+
+    .data10 {
+        flex-wrap: wrap;
+    }
+
+    .content10 {
+        align-items: center;
+        width: 100%;
+    }
+
+    .headconbottom10 {
+        padding-right: 115px;
+    }
+
+    .data11 {
+        flex-wrap: wrap;
+    }
+
+    .content11 {
+        align-items: center;
+        width: 100%;
+    }
+
+    .headconbottom11 {
+        padding-right: 162px;
+    }
+
+    .headmidcontent {
+        display: flex;
+        justify-content: center;
+    }
+
+    .headmidcontent .viewall {
+        display: none;
+    }
+
+    .boxmidcontent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .midbox1 {
+        width: 100%;
+        height: 230px;
+    }
+
+    .midbox2 {
+        width: 100%;
+        height: 230px;
+    }
 }
 
 
